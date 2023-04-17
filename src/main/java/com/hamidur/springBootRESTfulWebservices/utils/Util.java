@@ -211,3 +211,5 @@ public class Util
         return arrivalDateTime.isAfter(departureDateTime);
     }
 }
+
+//rkb

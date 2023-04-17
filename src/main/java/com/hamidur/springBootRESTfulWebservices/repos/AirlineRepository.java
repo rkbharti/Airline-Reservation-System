@@ -9,3 +9,4 @@ public interface AirlineRepository extends CrudRepository<Airline, Integer>
 {
     Airline findByAirlineNameIgnoreCase(String airlineName);
 }
+ //rkb

@@ -57,3 +57,5 @@ create table reservations
     flight_id int not null,
     foreign key (customer_id) references customers (customer_id),
     foreign key (flight_id) references flights (flight_id));
+
+//rkb

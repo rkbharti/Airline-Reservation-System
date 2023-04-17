@@ -21,3 +21,5 @@ public interface CustomerRepository extends CrudRepository<Customer, Integer>
                     "delete from customers where customer_id = :c_id", nativeQuery = true)
     void deleteCustomerByCustomerId(@Param("c_id") Integer customerId);
 }
+
+//rkb

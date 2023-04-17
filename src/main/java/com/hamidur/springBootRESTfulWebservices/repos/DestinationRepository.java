@@ -7,3 +7,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface DestinationRepository extends CrudRepository<Destination, Integer> {
 }
+
+
+//rkb

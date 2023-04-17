@@ -35,3 +35,5 @@ public interface ReservationRepository extends CrudRepository<Reservation, Integ
     void insertRSVPByCustomerId(@Param("date_time")LocalDateTime dateTime, @Param("status")String status,
                                 @Param("customer_id")int customerId, @Param("flight_id")int flightId);
 }
+
+//rkb

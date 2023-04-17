@@ -9,3 +9,6 @@ public interface AirportRepository extends CrudRepository<Airport, Integer>
 {
     Airport findByAirportNameIgnoreCase(String airportName);
 }
+
+
+//rkb

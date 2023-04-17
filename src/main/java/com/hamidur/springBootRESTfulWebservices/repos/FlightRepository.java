@@ -46,3 +46,5 @@ public interface FlightRepository extends CrudRepository<Flight, Integer>
     @Query(value = "update flights f set f.status = :_status where f.flight_id = :flight_id", nativeQuery = true)
     void changeFlightStatus(@Param("_status") String status, @Param("flight_id")Integer flightId);
 }
+
+//rkb

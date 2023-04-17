@@ -125,3 +125,6 @@ insert into reservations (date_time, status, customer_id, flight_id) values
 ('2020-01-14 15:20:23', 'CANCELLED', 4, 6);
 
 insert into customers_flights (flight_id, customer_id) values (3, 2)
+
+
+//rkb
